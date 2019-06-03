@@ -1,17 +1,131 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    background-color: grey;
-    text-align: center;
-    line-height: 160%;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+    background: #777;
+    width: 960px;
+    padding-top: 7px;
+    margin: 0 auto;
+
+
 }
 
-header, nav, aside, h1, h2, h3, p, footer {
-    background-color: white;
+header, nav, section, aside, footer{
+    color: #ebebeb;
+    background: #777;
 }
 
 
+article {
+    color: #ebebeb;
+    background-attachment: #777;
+}
+
+h1, p {
+    color: #777;
+    background: #ebebeb;
+}
 
 header {
-    padding: 30px;
+    width: 100%;
+text-align: center;
+background-color: #ebebeb;
+color: #777;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+
+nav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #ebebeb;
+    color: #777;
+    text-align: center;
+}
+
+#navi {
+    padding-top: 8px;
+
+}
+
+section{
+    float: left;
+    text-align: center;
+    background-color: #ebebeb;
+    width: 495px;
+    padding-top: 25px;
+
+}
+.sectioncont {
+    padding-top: 16px;
+
+}
+
+article{
+    background-color: #777;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#articlecont{
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    padding-right: 8px;
+    padding-left: 8px;
+}  
+
+h1 {
+    padding: 12.5px;
+}
+
+#h1cont{
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+p {
+    padding: 12.5px;
+}
+
+#pcont {
+    padding-top: 8px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+aside {
+    float: right;
+    background-color: #ebebeb;
+    color: #777;
+    width: 450px;
+    text-align: center;
+    height: 227.5px;
+    padding-top: 37.5px;
+}
+
+#aside {
+
+}
+
+
+
+footer {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    background-color: #ebebeb;
+    color: #777;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+    bottom: -20px;
+
+}
+
+#footer {
+
+
 }
